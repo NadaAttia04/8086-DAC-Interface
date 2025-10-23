@@ -1,7 +1,6 @@
 # 8086-DAC-Interface
 Simulation project demonstrating how to interface the Intel 8086 microprocessor with a DAC0808 converter using Proteus. Includes full schematic design and Assembly code to generate analog waveforms from digital outputs for educational and experimental purposes.
 
-
 ---
 <img width="1918" height="1029" alt="Capture" src="https://github.com/user-attachments/assets/4fd0897f-2bbe-4432-8b03-eddf1dc4f711" />
 
