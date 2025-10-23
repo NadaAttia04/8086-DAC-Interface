@@ -50,8 +50,8 @@ This project serves as an educational tool for understanding microprocessor inte
 
 ## 🧑‍💻 Author
 
-- **Nada Attia** → [GitHub Profile](https://github.com/NadaAttia04)  
 - **Farida Ayman** → [GitHub Profile](https://github.com/FaridaAyman)  
+- **Nada Attia** → [GitHub Profile](https://github.com/NadaAttia04)  
 - **Rodina Ahmed** → [GitHub Profile](https://github.com/RodinaAhmed)
 
 ---
