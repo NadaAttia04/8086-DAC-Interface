@@ -3,7 +3,7 @@ Simulation project demonstrating how to interface the Intel 8086 microprocessor 
 
 
 ---
-<img width="1918" height="1029" alt="Capture" src="https://github.com/user-attachments/assets/1164e290-2b28-4be7-9aa4-b894ef90829c" />
+<img width="1918" height="1029" alt="Capture" src="https://github.com/user-attachments/assets/4fd0897f-2bbe-4432-8b03-eddf1dc4f711" />
 
 ## **Project Overview**
 
@@ -33,7 +33,7 @@ The project integrates:
 3. Use the `.asm` source code with the Emu8086 emulator to simulate code execution, allowing control over DAC input values.
 4. Adjust the Assembly code or circuit design to experiment with different signal outputs or behaviors
    
-<img width="1920" height="1029" alt="Capture2" src="https://github.com/user-attachments/assets/2ad6d9d6-8f07-4fdc-9c8f-374926b1d270" />
+<img width="1920" height="1029" alt="Capture2" src="https://github.com/user-attachments/assets/77660749-6727-4954-a4c6-65994b38b934" />
 
 ---
 
