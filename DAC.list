@@ -1,0 +1,53 @@
+EMU8086 GENERATED LISTING. MACHINE CODE <- SOURCE.
+ 
+NFR.com -- emu8086 assembler version: 4.08  
+ 
+[ 11/25/2024  --  5:08:12 PM ] 
+ 
+===================================================================================================
+[LINE]     LOC: MACHINE CODE                          SOURCE
+===================================================================================================
+ 
+[   1]        :                                       CODE SEGMENT
+[   2]        :                                       PORTA EQU 00H     ;Address of Port A       = 00H
+[   3]        :                                       Config EQU 06H    ;Address of Config. Word = 06H
+[   4]        :                                       ORG 100H
+[   5]    0100: BA 06 00                              MOV DX, Config
+[   6]    0103: B0 80                                 MOV AL, 10000000B;port C=output, port A=output in mode 0, PORT B=output in mode 0
+[   7]    0105: EE                                    OUT DX, AL
+[   8]    0106:                                       START:
+[   9]    0106: B0 00                                 MOV AL, 00000000B;All pins of port A will be (0)
+[  10]    0108: BA 00 00                              MOV DX, PORTA
+[  11]    010B: EE                                    OUT DX,AL
+[  12]        :                                       ;--------------------
+[  13]    010C: B9 FF 00                              MOV CX, 0ffh     ;Small Delay
+[  14]    010F:                                       loopy1:
+[  15]    010F: E2 FE                                 loop loopy1
+[  16]        :                                       ;--------------------
+[  17]    0111: B0 FF                                 MOV AL, 11111111B;All pins of port A will be (1)
+[  18]    0113: BA 00 00                              MOV DX, PORTA
+[  19]    0116: EE                                    OUT DX,AL
+[  20]        :                                       ;--------------------
+[  21]    0117: B9 FF 00                              MOV CX, 0ffh     ;Small Delay again
+[  22]    011A:                                       loopy2:
+[  23]    011A: E2 FE                                 loop loopy2
+[  24]        :                                       ;--------------------
+[  25]    011C: EB E8                                 JMP START          ;Loop forever
+[  26]        :                                       CODE ENDS
+[  27]        :                                       END
+[  28]        :                                       
+[  29]        :                                       
+[  30]        :                                       
+[  31]        :                                       
+[  32]        :                                       
+[  33]        :                                       
+[  34]        :                                       
+[  35]        :                                       
+ 
+===================================================================================================
+ 
+
+
+
+
+===================================================================================================
