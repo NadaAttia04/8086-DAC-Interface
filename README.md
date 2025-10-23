@@ -13,7 +13,7 @@ The project integrates:
 
 - **Hardware schematic design** including the DAC0808 and operational amplifier circuits.
 - **Assembly language programming** to control microprocessor ports and output data.
-- **Visualization of output waveforms** using a virtual oscilloscope to study signal behavior.
+- **Visualization of output waveforms** using a virtual oscilloscope to study signal behavior
 ..
 ---
 
